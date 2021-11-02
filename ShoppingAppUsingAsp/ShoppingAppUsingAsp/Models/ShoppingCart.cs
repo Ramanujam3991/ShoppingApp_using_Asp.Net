@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace ShoppingAppUsingAsp.Models
 
         public static ShoppingCart GetCart(IServiceProvider services)
         {
+
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
             var context = services.GetService<ShoppingDbContext>();

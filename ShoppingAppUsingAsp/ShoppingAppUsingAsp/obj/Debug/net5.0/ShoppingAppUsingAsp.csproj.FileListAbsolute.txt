@@ -434,3 +434,11 @@ F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\runti
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\_Carousel.cshtml.g.cs
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\_productCard.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\ShoppingCart\Index.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

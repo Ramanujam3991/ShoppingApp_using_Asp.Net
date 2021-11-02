@@ -15,6 +15,6 @@ namespace ShoppingAppUsingAsp.Models
          }
 
 
-        public IEnumerable<Category> GetAllCategory => throw new NotImplementedException();
+        public IEnumerable<Category> GetAllCategory => _appDbContext.Categories;
     }
 }

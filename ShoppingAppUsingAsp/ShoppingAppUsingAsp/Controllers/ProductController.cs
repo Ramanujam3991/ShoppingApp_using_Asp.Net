@@ -18,38 +18,38 @@ namespace ShoppingAppUsingAsp.Controllers
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
         }
-        public IActionResult List()
+        /*        public IActionResult List()
+                {
+                    *//* ViewBag.Currentcategory = "Best Seller";
+                     return View(_productRepository.GetAllProduct);*//*
+                    var productListViewModel = new ProductListViewModel();
+                    productListViewModel.Products = _productRepository.GetAllProduct;
+                    productListViewModel.CurrentCategory = "BestSellers";
+                    return View(productListViewModel);
+                }*/
+        public ViewResult List(string category)
         {
-            /* ViewBag.Currentcategory = "Best Seller";
-             return View(_productRepository.GetAllProduct);*/
-            var productListViewModel = new ProductListViewModel();
-            productListViewModel.Products = _productRepository.GetAllProduct;
-            productListViewModel.CurrentCategory = "BestSellers";
-            return View(productListViewModel);
+            IEnumerable<Product> products;
+            string currentCategory;
+
+            if (string.IsNullOrEmpty(category))
+            {
+                products = _productRepository.GetAllProduct.OrderBy(c => c.ProductId);
+                currentCategory = "All Product";
+            }
+            else
+            {
+                products = _productRepository.GetAllProduct.Where(c => c.Category.CategoryName == category);
+
+                currentCategory = _categoryRepository.GetAllCategory.FirstOrDefault(c => c.CategoryName == category)?.CategoryName;
+            }
+
+            return View(new ProductListViewModel
+            {
+                Products = products,
+                CurrentCategory = currentCategory
+            });
         }
-        /* public ViewResult List(string category)
-         {
-             IEnumerable<Product> products;
-             string currentCategory;
-
-             if (string.IsNullOrEmpty(category))
-             {
-                 products = _productRepository.GetAllProduct.OrderBy(c => c.ProductId);
-                 currentCategory = "All Product";
-             }
-             else
-             {
-                 products = _productRepository.GetAllProduct.Where(c => c.Category.CategoryName == category);
-
-                 currentCategory = _categoryRepository.GetAllCategory.FirstOrDefault(c => c.CategoryName == category)?.CategoryName;
-             }
-
-             return View(new ProductListViewModel
-             {
-                 Products = products,
-                 CurrentCategory = currentCategory
-             });
-         }*/
 
         public IActionResult Details(int id)
         {

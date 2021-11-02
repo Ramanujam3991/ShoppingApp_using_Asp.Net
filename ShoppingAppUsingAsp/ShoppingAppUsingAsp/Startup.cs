@@ -29,6 +29,12 @@ namespace ShoppingAppUsingAsp
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddDbContext<ShoppingDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<ShoppingCart>(sc => ShoppingCart.GetCart(sc));
+            //services.AddScoped<IOrderRepository, OrderRepository>();
+
+            services.AddHttpContextAccessor();
+            services.AddSession();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,9 +52,10 @@ namespace ShoppingAppUsingAsp
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
