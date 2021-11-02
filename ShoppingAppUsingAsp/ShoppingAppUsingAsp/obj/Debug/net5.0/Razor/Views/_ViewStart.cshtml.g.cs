@@ -26,8 +26,15 @@ using ShoppingAppUsingAsp.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\Views\_ViewImports.cshtml"
+using ShoppingAppUsingAsp.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e3d618764b42ad262e6acdfd34d321fdc5ae0011", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5f3e74e681f46e2d3a67360e4dc823ef1da4af2b", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
