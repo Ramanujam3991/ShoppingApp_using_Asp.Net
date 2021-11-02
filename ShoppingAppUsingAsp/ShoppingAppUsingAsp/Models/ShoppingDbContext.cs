@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingAppUsingAsp.Models
 {
-    public class ShoppingDbContext : DbContext
+    public class ShoppingDbContext : IdentityDbContext<IdentityUser>
     {
 
         public ShoppingDbContext(DbContextOptions<ShoppingDbContext> options) :
@@ -24,11 +26,11 @@ namespace ShoppingAppUsingAsp.Models
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 1, CategoryName = "Chocolate Product" });
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 2, CategoryName = "Fruit Product" });
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Gummy Product" });
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 4, CategoryName = "Halloween Product" });
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 5, CategoryName = "Hard Product" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 1, CategoryName = "Book" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 2, CategoryName = "Table" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Snacks" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 4, CategoryName = "Mobile" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 5, CategoryName = "Dress" });
 
             modelBuilder.Entity<Product>().HasData(new Product
             {

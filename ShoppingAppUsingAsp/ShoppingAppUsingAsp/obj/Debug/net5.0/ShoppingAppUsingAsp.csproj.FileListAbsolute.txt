@@ -32,8 +32,6 @@ F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -112,14 +110,11 @@ F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -442,3 +437,12 @@ F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\ShoppingAppUsingAsp.StaticWebAssets.xml
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\ASP Assignment\ShoppingAppUsingAsp\ShoppingAppUsingAsp\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
